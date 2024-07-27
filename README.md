@@ -15,7 +15,7 @@ This repository contains the design and implementation of the Advanced Encryptio
 - **Learning Phase**: Comprehensive understanding of AES including key expansion, rounds operations as mix columns.
 - **Hardware Design**: The AES design is modeled in Verilog.
 - **Simulation**: The design is tested using the test vectors provided in FIPS Publication 197 with the ModelSim simulator to verify functionality.
-- **Synthesis**: The design is synthesized using Xilinx Vivado.
+- **Synthesis**: The design is synthesized using Xilinx Vivado achieving  90MHz clock frequency without setup violations.
 - **Target**: Targeted for the Zynq UltraScale+ MPSoC ZCU104 FPGA.
 
 ## Resources
